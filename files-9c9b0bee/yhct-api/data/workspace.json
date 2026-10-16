@@ -1,0 +1,2379 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-13T08:57:29.230Z",
+  "savedBy": "admin",
+  "dsbnData": [
+    {
+      "stt": 1,
+      "maKcb": "2600033874",
+      "tenBn": "ĐỖ THỊ LANH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 2,
+      "maKcb": "2600034013",
+      "tenBn": "LƯU MINH XUÂN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 3,
+      "maKcb": "2600034014",
+      "tenBn": "AN THỊ PHƯỢNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 4,
+      "maKcb": "2600034157",
+      "tenBn": "LÊ NGUYÊN KHÔI",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 5,
+      "maKcb": "2600034407",
+      "tenBn": "VŨ THỊ NHIỆM",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 6,
+      "maKcb": "2600034533",
+      "tenBn": "NGUYỄN THỊ CHINH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 7,
+      "maKcb": "2600034535",
+      "tenBn": "LÊ THỊ HƯƠNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "08:23",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 8,
+      "maKcb": "2600034727",
+      "tenBn": "LÊ VĂN ĐỨC",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 9,
+      "maKcb": "2600034728",
+      "tenBn": "NGUYỄN VĂN SÁU",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 10,
+      "maKcb": "2600034729",
+      "tenBn": "PHẠM THỊ PHƯƠNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 11,
+      "maKcb": "2600034762",
+      "tenBn": "BÙI THỊ SÁNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 12,
+      "maKcb": "2600034731",
+      "tenBn": "NGUYỄN VĂN BẮC",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 13,
+      "maKcb": "2600034732",
+      "tenBn": "VŨ THỊ NHUNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 14,
+      "maKcb": "2600034733",
+      "tenBn": "NGUYỄN THỊ XUÂN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 15,
+      "maKcb": "2600034735",
+      "tenBn": "ĐÀO THỊ TOẠI",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 16,
+      "maKcb": "2600034906",
+      "tenBn": "BÙI THỊ VÂN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 17,
+      "maKcb": "2600034907",
+      "tenBn": "LÊ THỊ MỪNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 18,
+      "maKcb": "2600034908",
+      "tenBn": "LÊ THỊ XUÂN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 19,
+      "maKcb": "2600034846",
+      "tenBn": "NGUYỄN VĂN THANH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 20,
+      "maKcb": "2600034998",
+      "tenBn": "PHẠM VĂN TOÁN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 21,
+      "maKcb": "2600034999",
+      "tenBn": "LÊ VĂN TOAN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 22,
+      "maKcb": "2600035000",
+      "tenBn": "NGUYỄN VĂN QUẾ",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 23,
+      "maKcb": "2600035001",
+      "tenBn": "PHẠM THỊ HIẾU",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 24,
+      "maKcb": "2600035003",
+      "tenBn": "NGUYỄN HỮU VÂN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 25,
+      "maKcb": "2600035233",
+      "tenBn": "NGUYỄN VĂN QUYỀN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 26,
+      "maKcb": "2600035234",
+      "tenBn": "DƯƠNG HÙNG TƯ",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 27,
+      "maKcb": "2600035397",
+      "tenBn": "TRỊNH THỊ NGƯU",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 28,
+      "maKcb": "2600035398",
+      "tenBn": "NGUYỄN THỊ LUYẾN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 29,
+      "maKcb": "2600035415",
+      "tenBn": "NGUYỄN THỊ CHANH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 30,
+      "maKcb": "2600035399",
+      "tenBn": "LÊ THỊ BẢY",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 31,
+      "maKcb": "2600035400",
+      "tenBn": "NGUYỄN VĂN MẠNH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 32,
+      "maKcb": "2600035401",
+      "tenBn": "ĐỖ THỊ CHỈNH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 33,
+      "maKcb": "2600035416",
+      "tenBn": "LÊ THỊ HƯNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 34,
+      "maKcb": "2600035417",
+      "tenBn": "HOÀNG ĐÌNH BÍCH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 35,
+      "maKcb": "2600035423",
+      "tenBn": "NGUYỄN THỊ HẰNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 36,
+      "maKcb": "2600035558",
+      "tenBn": "LÊ THỊ NGA",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 37,
+      "maKcb": "2600035559",
+      "tenBn": "LÊ VĂN VIÊN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 38,
+      "maKcb": "2600035677",
+      "tenBn": "NGÔ VĂN TỈNH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 39,
+      "maKcb": "2600035679",
+      "tenBn": "LÊ THỊ HIỀN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 40,
+      "maKcb": "2600035680",
+      "tenBn": "LÊ THỊ BÌNH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 41,
+      "maKcb": "2600035682",
+      "tenBn": "NGUYỄN THỊ NHUNG",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 42,
+      "maKcb": "2600035683",
+      "tenBn": "HÀ THỊ VĂN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 43,
+      "maKcb": "2600035676",
+      "tenBn": "LÊ KHÁNH TOÀN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 44,
+      "maKcb": "2600035684",
+      "tenBn": "TÔ NGỌC THIỆU",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 45,
+      "maKcb": "2600035798",
+      "tenBn": "LÊ VĂN CHỦ",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 46,
+      "maKcb": "2600035799",
+      "tenBn": "NGUYỄN THỊ VÂN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 47,
+      "maKcb": "2600035772",
+      "tenBn": "TRỊNH THỊ THÚY",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 48,
+      "maKcb": "2600035775",
+      "tenBn": "NGUYỄN THỊ LIÊN",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    },
+    {
+      "stt": 49,
+      "maKcb": "2600035935",
+      "tenBn": "TRỊNH THỊ OANH",
+      "ngayVao": "",
+      "ngayRV": "",
+      "gioRV": "",
+      "services": [
+        "Điện châm",
+        "Xóa bóp"
+      ]
+    }
+  ],
+  "scheduleData": [
+    {
+      "stt": 1,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "07:10",
+      "thoiGianKetThuc": "07:35",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:00",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 1,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "07:36",
+      "thoiGianKetThuc": "08:01",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:00",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 2,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "07:10",
+      "thoiGianKetThuc": "07:35",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 2",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:01",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 2,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "07:36",
+      "thoiGianKetThuc": "08:01",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:01",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 3,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "07:10",
+      "thoiGianKetThuc": "07:35",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:02",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 3,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "07:36",
+      "thoiGianKetThuc": "08:01",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:02",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 4,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "07:10",
+      "thoiGianKetThuc": "07:35",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:03",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 4,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "07:36",
+      "thoiGianKetThuc": "08:01",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:03",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 5,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "07:10",
+      "thoiGianKetThuc": "07:35",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 5",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:04",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 5,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "07:36",
+      "thoiGianKetThuc": "08:01",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:04",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 6,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:02",
+      "thoiGianKetThuc": "08:27",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:07",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 6,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:28",
+      "thoiGianKetThuc": "08:53",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:07",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 7,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "07:10",
+      "thoiGianKetThuc": "07:35",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "14:16",
+      "gioYL": "07:05",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": "08:23"
+    },
+    {
+      "stt": 7,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "07:36",
+      "thoiGianKetThuc": "08:01",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "14:16",
+      "gioYL": "07:05",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": "08:23"
+    },
+    {
+      "stt": 8,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:02",
+      "thoiGianKetThuc": "08:27",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:08",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 8,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:28",
+      "thoiGianKetThuc": "08:53",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:08",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 9,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:02",
+      "thoiGianKetThuc": "08:27",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 2",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:09",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 9,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:28",
+      "thoiGianKetThuc": "08:53",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:09",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 10,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:02",
+      "thoiGianKetThuc": "08:27",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:10",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 10,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:28",
+      "thoiGianKetThuc": "08:53",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:10",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 11,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:02",
+      "thoiGianKetThuc": "08:27",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:11",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 11,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:28",
+      "thoiGianKetThuc": "08:53",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:11",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 12,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:54",
+      "thoiGianKetThuc": "09:19",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 5",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:14",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 12,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "09:20",
+      "thoiGianKetThuc": "09:45",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:14",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 13,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:54",
+      "thoiGianKetThuc": "09:19",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:15",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 13,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "09:20",
+      "thoiGianKetThuc": "09:45",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:15",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 14,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:54",
+      "thoiGianKetThuc": "09:19",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 2",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:16",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 14,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "09:20",
+      "thoiGianKetThuc": "09:45",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:16",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 15,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:54",
+      "thoiGianKetThuc": "09:19",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:17",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 15,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "09:20",
+      "thoiGianKetThuc": "09:45",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:17",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 16,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:54",
+      "thoiGianKetThuc": "09:19",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:18",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 16,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "09:20",
+      "thoiGianKetThuc": "09:45",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:18",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 17,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "09:46",
+      "thoiGianKetThuc": "10:11",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 5",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:21",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 17,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "10:12",
+      "thoiGianKetThuc": "10:37",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:21",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 18,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "09:46",
+      "thoiGianKetThuc": "10:11",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:22",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 18,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "10:12",
+      "thoiGianKetThuc": "10:37",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:22",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 19,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "09:46",
+      "thoiGianKetThuc": "10:11",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:23",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 19,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "10:12",
+      "thoiGianKetThuc": "10:37",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:23",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 20,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "09:46",
+      "thoiGianKetThuc": "10:11",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 2",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:24",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 20,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "10:12",
+      "thoiGianKetThuc": "10:37",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:24",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 21,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "09:46",
+      "thoiGianKetThuc": "10:11",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:25",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 21,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "10:12",
+      "thoiGianKetThuc": "10:37",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:25",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 22,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "10:38",
+      "thoiGianKetThuc": "11:03",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:28",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 22,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "11:04",
+      "thoiGianKetThuc": "11:29",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:28",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 23,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "10:38",
+      "thoiGianKetThuc": "11:03",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 5",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:29",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 23,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "11:04",
+      "thoiGianKetThuc": "11:29",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:29",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 24,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "10:38",
+      "thoiGianKetThuc": "11:03",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:30",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 24,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "11:04",
+      "thoiGianKetThuc": "11:29",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Sáng",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:30",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 25,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "10:38",
+      "thoiGianKetThuc": "11:03",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:31",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 25,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "11:04",
+      "thoiGianKetThuc": "11:29",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Sáng",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:31",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 26,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "10:38",
+      "thoiGianKetThuc": "11:03",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 2",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:32",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 26,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "11:04",
+      "thoiGianKetThuc": "11:29",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Sáng",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:32",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 27,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:31",
+      "thoiGianKetThuc": "08:56",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:13",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 27,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:57",
+      "thoiGianKetThuc": "09:22",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:13",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 28,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "09:23",
+      "thoiGianKetThuc": "09:48",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:20",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 28,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "09:49",
+      "thoiGianKetThuc": "10:14",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:20",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 29,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "10:15",
+      "thoiGianKetThuc": "10:40",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:27",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 29,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "10:41",
+      "thoiGianKetThuc": "11:06",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Sáng",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:27",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 30,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "07:36",
+      "thoiGianKetThuc": "08:01",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:06",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 30,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:02",
+      "thoiGianKetThuc": "08:27",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:06",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 31,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "08:28",
+      "thoiGianKetThuc": "08:53",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:12",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 31,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "08:54",
+      "thoiGianKetThuc": "09:19",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:12",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 32,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "09:20",
+      "thoiGianKetThuc": "09:45",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:19",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 32,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "09:46",
+      "thoiGianKetThuc": "10:11",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:19",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 33,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "10:12",
+      "thoiGianKetThuc": "10:37",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:26",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 33,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "10:38",
+      "thoiGianKetThuc": "11:03",
+      "chucDanhNV": "BS Chinh",
+      "caLam": "Sáng",
+      "tenNV": "BS Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "07:26",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 34,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "13:40",
+      "thoiGianKetThuc": "14:05",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:00",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 34,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:06",
+      "thoiGianKetThuc": "14:31",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:00",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 35,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "13:40",
+      "thoiGianKetThuc": "14:05",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 5",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:01",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 35,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:06",
+      "thoiGianKetThuc": "14:31",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:01",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 36,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "13:40",
+      "thoiGianKetThuc": "14:05",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:02",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 36,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:06",
+      "thoiGianKetThuc": "14:31",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:02",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 37,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "13:40",
+      "thoiGianKetThuc": "14:05",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Chiều",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:03",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 37,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:06",
+      "thoiGianKetThuc": "14:31",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Chiều",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:03",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 38,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "13:40",
+      "thoiGianKetThuc": "14:05",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Chiều",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 2",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:04",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 38,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:06",
+      "thoiGianKetThuc": "14:31",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Chiều",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:04",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 39,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "14:32",
+      "thoiGianKetThuc": "14:57",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:06",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 39,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:58",
+      "thoiGianKetThuc": "15:23",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:06",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 40,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "14:32",
+      "thoiGianKetThuc": "14:57",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:07",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 40,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:58",
+      "thoiGianKetThuc": "15:23",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:07",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 41,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "14:32",
+      "thoiGianKetThuc": "14:57",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 5",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:08",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 41,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:58",
+      "thoiGianKetThuc": "15:23",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:08",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 42,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "14:32",
+      "thoiGianKetThuc": "14:57",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Chiều",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:09",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 42,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:58",
+      "thoiGianKetThuc": "15:23",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Chiều",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:09",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 43,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "14:32",
+      "thoiGianKetThuc": "14:57",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Chiều",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 1",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:10",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 43,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:58",
+      "thoiGianKetThuc": "15:23",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Chiều",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:10",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 44,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "15:24",
+      "thoiGianKetThuc": "15:49",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "Máy 2",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:11",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 44,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "15:50",
+      "thoiGianKetThuc": "16:15",
+      "chucDanhNV": "KTV Cảnh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Cảnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:11",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 45,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "15:24",
+      "thoiGianKetThuc": "15:49",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Chinh",
+      "mayTE": "Máy 3",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:12",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 45,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "15:50",
+      "thoiGianKetThuc": "16:15",
+      "chucDanhNV": "KTV Chinh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Chinh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:12",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 46,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "15:24",
+      "thoiGianKetThuc": "15:49",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Linh",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:13",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 46,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "15:50",
+      "thoiGianKetThuc": "16:15",
+      "chucDanhNV": "KTV Linh",
+      "caLam": "Chiều",
+      "tenNV": "KTV Linh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:13",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 47,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "15:24",
+      "thoiGianKetThuc": "15:49",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Chiều",
+      "tenNV": "KTV Sáu",
+      "mayTE": "Máy 5",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:14",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 47,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "15:50",
+      "thoiGianKetThuc": "16:15",
+      "chucDanhNV": "KTV Sáu",
+      "caLam": "Chiều",
+      "tenNV": "KTV Sáu",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:14",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 48,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "15:24",
+      "thoiGianKetThuc": "15:49",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Chiều",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "Máy 6",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:15",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 48,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "15:50",
+      "thoiGianKetThuc": "16:15",
+      "chucDanhNV": "KTV Vẻ",
+      "caLam": "Chiều",
+      "tenNV": "KTV Vẻ",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:15",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 49,
+      "dichVu": "Điện châm",
+      "thoiGianBatDau": "13:40",
+      "thoiGianKetThuc": "14:05",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Chiều",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "Máy 4",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:05",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    },
+    {
+      "stt": 49,
+      "dichVu": "Xóa bóp",
+      "thoiGianBatDau": "14:06",
+      "thoiGianKetThuc": "14:31",
+      "chucDanhNV": "BS Quỳnh",
+      "caLam": "Chiều",
+      "tenNV": "BS Quỳnh",
+      "mayTE": "",
+      "ngay": "2026-09-13",
+      "gioTiepNhan": "",
+      "gioYL": "13:05",
+      "bsYL": "BS Chinh",
+      "ngayRV": "",
+      "gioRV": ""
+    }
+  ],
+  "SERVICES": {
+    "Xóa bóp": 25,
+    "Điện châm": 25,
+    "Cứu ngải": 15
+  },
+  "DEFAULT_SERVICES": [
+    "Xóa bóp",
+    "Điện châm",
+    "Cứu ngải"
+  ],
+  "STATUS_COLORS": {
+    "okBg": "#16a34a",
+    "okFg": "#ffffff",
+    "conflictBg": "#dc2626",
+    "conflictFg": "#ffffff",
+    "xeCaBg": "#ea580c",
+    "warnBg": "#f59e0b",
+    "rowConflictBg": "#fef2f2",
+    "rowRvBg": "#e0f2fe",
+    "rowLongstayBg": "#fffbeb"
+  },
+  "STAFF_LIST": [
+    "KTV Vẻ",
+    "KTV Cảnh",
+    "KTV Chinh",
+    "KTV Linh",
+    "BS Quỳnh",
+    "BS Chinh",
+    "KTV Sáu"
+  ],
+  "STAFF_SHIFTS": {
+    "KTV Vẻ": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "KTV Cảnh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "KTV Chinh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "KTV Linh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "BS Quỳnh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "BS Chinh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "KTV Sáu": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    }
+  },
+  "STAFF_MACHINES": {},
+  "MACHINE_LIST": [
+    "Máy 1",
+    "Máy 2",
+    "Máy 3",
+    "Máy 4",
+    "Máy 5",
+    "Máy 6"
+  ],
+  "BLOCKED_RANGES": [
+    {
+      "id": 1,
+      "start": "11:30",
+      "end": "13:00",
+      "label": "Nghỉ trưa"
+    }
+  ],
+  "CLINIC_WINDOWS": {
+    "dangKy": {
+      "morning": {
+        "start": "07:25",
+        "end": "07:50",
+        "bs": ""
+      },
+      "afternoon": {
+        "start": "13:00",
+        "end": "13:30",
+        "bs": ""
+      },
+      "start": "07:25",
+      "end": "07:50",
+      "bs": ""
+    },
+    "khamBenh": {
+      "morning": {
+        "start": "07:24",
+        "end": "07:50",
+        "bs": ""
+      },
+      "afternoon": {
+        "start": "13:30",
+        "end": "16:30",
+        "bs": ""
+      },
+      "start": "07:24",
+      "end": "07:50",
+      "bs": ""
+    },
+    "nhapKhoa": {
+      "morning": {
+        "start": "07:00",
+        "end": "08:00",
+        "bs": ""
+      },
+      "afternoon": {
+        "start": "13:00",
+        "end": "14:00",
+        "bs": ""
+      },
+      "start": "13:00",
+      "end": "14:00",
+      "bs": ""
+    },
+    "rl": {
+      "morning": {
+        "start": "08:05",
+        "end": "08:30",
+        "bs": "BS Quỳnh"
+      },
+      "afternoon": {
+        "start": "15:00",
+        "end": "16:30",
+        "bs": ""
+      },
+      "start": "15:00",
+      "end": "16:30",
+      "bs": "BS Quỳnh"
+    }
+  },
+  "PEAK_RANGES": [
+    {
+      "id": 1,
+      "start": "07:30",
+      "end": "09:00",
+      "label": "Cao điểm sáng"
+    },
+    {
+      "id": 2,
+      "start": "13:30",
+      "end": "15:00",
+      "label": "Cao điểm chiều"
+    }
+  ],
+  "PEAK_MAX_CONCURRENT": 6,
+  "PEAK_MAX_PER_STAFF": 1,
+  "PEAK_AVOID_MODE": true,
+  "BS_ONLY_SERVICES": [],
+  "SERVICE_ALLOW_RANGES": [
+    {
+      "id": 1,
+      "start": "07:00",
+      "end": "11:30",
+      "label": "Ca sáng"
+    },
+    {
+      "id": 2,
+      "start": "13:30",
+      "end": "17:00",
+      "label": "Ca chiều"
+    }
+  ],
+  "RV_ALLOW_RANGES": [
+    {
+      "id": 1,
+      "start": "07:00",
+      "end": "16:30",
+      "label": "Giờ ra viện trong ngày"
+    }
+  ],
+  "SEASONAL_SHIFTS": {
+    "summer": {
+      "fromMonth": 4,
+      "fromDay": 16,
+      "toMonth": 10,
+      "toDay": 15,
+      "morningStart": "07:10",
+      "morningEnd": "11:30",
+      "afternoonStart": "13:40",
+      "afternoonEnd": "17:00"
+    },
+    "winter": {
+      "morningStart": "07:30",
+      "morningEnd": "11:30",
+      "afternoonStart": "13:30",
+      "afternoonEnd": "16:30"
+    }
+  },
+  "DEFAULT_BS_YL": "BS Chinh",
+  "autoRecalculateMode": true,
+  "sttSortAsc": true,
+  "timeSettings": {
+    "morningStart": "07:10",
+    "morningEnd": "11:30",
+    "afternoonStart": "13:40",
+    "afternoonEnd": "17:00",
+    "restGap": "1"
+  }
+}

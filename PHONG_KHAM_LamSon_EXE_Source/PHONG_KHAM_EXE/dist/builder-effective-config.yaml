@@ -1,0 +1,23 @@
+directories:
+  output: dist
+  buildResources: build
+appId: vn.lamson.chiagio
+productName: Phong Kham Lam Son - Chia Gio
+icon: build/icon.ico
+files:
+  - filter:
+      - main.js
+      - preload.js
+      - app/**/*
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+  icon: build/icon.ico
+  signAndEditExecutable: false
+  artifactName: PhongKham_LamSon_ChiaGio_Portable.${ext}
+portable:
+  artifactName: PhongKham_LamSon_ChiaGio_Portable.${ext}
+forceCodeSigning: false
+electronVersion: 33.4.11

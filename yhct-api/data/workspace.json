@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-20T08:49:07.089Z",
+  "savedBy": "admin",
+  "dsbnData": [],
+  "scheduleData": [],
+  "SERVICES": {
+    "Xóa bóp": 25,
+    "Điện châm": 25,
+    "Cứu ngải": 15
+  },
+  "DEFAULT_SERVICES": [
+    "Xóa bóp",
+    "Điện châm",
+    "Cứu ngải"
+  ],
+  "STAFF_LIST": [
+    "KTV Vẻ",
+    "KTV Cảnh",
+    "KTV Chinh",
+    "KTV Linh",
+    "BS Quỳnh",
+    "BS Chinh"
+  ],
+  "STAFF_SHIFTS": {
+    "KTV Vẻ": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "KTV Cảnh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "KTV Chinh": {
+      "morning": false,
+      "afternoon": false,
+      "note": ""
+    },
+    "KTV Linh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "BS Quỳnh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    },
+    "BS Chinh": {
+      "morning": true,
+      "afternoon": true,
+      "note": ""
+    }
+  },
+  "MACHINE_LIST": [
+    "Máy 1",
+    "Máy 2",
+    "Máy 3",
+    "Máy 4",
+    "Máy 5",
+    "Máy 6"
+  ],
+  "BLOCKED_RANGES": [
+    {
+      "id": 1,
+      "start": "11:30",
+      "end": "13:00",
+      "label": "Nghỉ trưa"
+    }
+  ],
+  "PEAK_RANGES": [
+    {
+      "id": 1,
+      "start": "07:30",
+      "end": "09:00",
+      "label": "Cao điểm sáng"
+    },
+    {
+      "id": 2,
+      "start": "13:30",
+      "end": "15:00",
+      "label": "Cao điểm chiều"
+    }
+  ],
+  "PEAK_MAX_CONCURRENT": 6,
+  "PEAK_MAX_PER_STAFF": 1,
+  "PEAK_AVOID_MODE": false,
+  "BS_ONLY_SERVICES": [],
+  "SERVICE_ALLOW_RANGES": [
+    {
+      "id": 1,
+      "start": "07:00",
+      "end": "11:30",
+      "label": "Ca sáng"
+    },
+    {
+      "id": 2,
+      "start": "13:30",
+      "end": "17:00",
+      "label": "Ca chiều"
+    }
+  ],
+  "RV_ALLOW_RANGES": [
+    {
+      "id": 1,
+      "start": "07:00",
+      "end": "16:30",
+      "label": "Giờ ra viện trong ngày"
+    }
+  ],
+  "SEASONAL_SHIFTS": {
+    "summer": {
+      "fromMonth": 4,
+      "fromDay": 16,
+      "toMonth": 10,
+      "toDay": 15,
+      "morningStart": "07:00",
+      "morningEnd": "11:30",
+      "afternoonStart": "13:30",
+      "afternoonEnd": "17:00"
+    },
+    "winter": {
+      "morningStart": "07:30",
+      "morningEnd": "11:30",
+      "afternoonStart": "13:30",
+      "afternoonEnd": "16:30"
+    }
+  },
+  "DEFAULT_BS_YL": "BS Chinh",
+  "autoRecalculateMode": true,
+  "sttSortAsc": true,
+  "timeSettings": {
+    "morningStart": "07:00",
+    "morningEnd": "11:30",
+    "afternoonStart": "13:30",
+    "afternoonEnd": "17:00",
+    "restGap": "1"
+  }
+}

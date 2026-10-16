@@ -1,0 +1,35 @@
+============================================================
+  ĐÓNG GÓI PHẦN MỀM EXE – Chia giờ Lam Sơn
+============================================================
+
+YÊU CẦU TRÊN MÁY WINDOWS:
+  - Đã cài Node.js LTS: https://nodejs.org/
+  - Kết nối Internet (cài electron lần đầu)
+
+CÁCH 1 – Tạo file EXE portable (khuyên dùng)
+  1. Giải nén / mở thư mục PHONG_KHAM_EXE
+  2. Mở Command Prompt hoặc PowerShell trong thư mục này
+  3. Chạy lần lượt:
+
+       npm install
+       npm run dist
+
+  4. File EXE nằm trong thư mục:
+       dist\PhongKham_LamSon_ChiaGio_Portable.exe
+
+  5. Copy file .exe sang máy khác, bấm chạy – không cần cài đặt.
+
+CÁCH 2 – Chạy thử không đóng gói
+       npm install
+       npm start
+
+GHI CHÚ:
+  - Dữ liệu (DSBN, lịch) lưu trong hồ sơ ứng dụng Electron trên máy.
+  - Xuất Excel dùng thư viện SheetJS từ CDN → máy cần mạng khi dùng Excel.
+  - Nếu Windows SmartScreen cảnh báo: chọn "More info" → Run anyway
+    (phần mềm tự đóng gói, chưa ký số).
+
+CẬP NHẬT PHIÊN BẢN HTML MỚI:
+  - Copy file HTML mới đè vào: app\index.html
+  - Chạy lại: npm run dist
+============================================================

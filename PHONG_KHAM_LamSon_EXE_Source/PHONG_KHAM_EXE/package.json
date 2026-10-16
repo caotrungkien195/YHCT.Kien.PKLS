@@ -1,0 +1,46 @@
+{
+  "name": "phong-kham-lam-son-chia-gio",
+  "productName": "Phong Kham Lam Son - Chia Gio",
+  "version": "1.0.0",
+  "description": "Phan mem chia gio dich vu KTV - Phong kham Da khoa Lam Son",
+  "main": "main.js",
+  "author": "Phong Kham Lam Son",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable",
+    "dist:dir": "electron-builder --win dir"
+  },
+  "build": {
+    "appId": "vn.lamson.chiagio",
+    "productName": "Phong Kham Lam Son - Chia Gio",
+    "icon": "build/icon.ico",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "app/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "signAndEditExecutable": false,
+      "artifactName": "PhongKham_LamSon_ChiaGio_Portable.${ext}"
+    },
+    "portable": {
+      "artifactName": "PhongKham_LamSon_ChiaGio_Portable.${ext}"
+    },
+    "forceCodeSigning": false
+  },
+  "devDependencies": {
+    "electron": "33.4.11",
+    "electron-builder": "25.1.8"
+  }
+}
