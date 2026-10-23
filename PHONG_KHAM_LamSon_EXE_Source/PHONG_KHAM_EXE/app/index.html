@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHÒNG KHÁM ĐA KHOA LAM SƠN – Chia giờ · 02102026_v2.9</title>
+    <title>PHÒNG KHÁM ĐA KHOA LAM SƠN – Chia giờ · 23102026_v2.9</title>
     <script src="https://cdn.tailwindcss.com">
         try {
             if (document.readyState === 'loading') {
@@ -466,6 +466,46 @@
       border-bottom: 2px solid transparent;
     }
     #authOverlay .auth-tabs button.active { color: #1e3c72; border-bottom-color: #1e3c72; }
+    #authOverlay .auth-version {
+      margin-top: 0.45rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      color: #fff;
+      background: rgba(255,255,255,0.16);
+      border: 1px solid rgba(255,255,255,0.28);
+      border-radius: 999px;
+      padding: 0.2rem 0.65rem;
+      backdrop-filter: blur(4px);
+    }
+    #authOverlay .auth-version i { opacity: 0.9; font-size: 0.7rem; }
+    #authVersionOutside {
+      position: absolute;
+      left: 50%;
+      bottom: 1.25rem;
+      transform: translateX(-50%);
+      z-index: 1;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: rgba(255,255,255,0.9);
+      letter-spacing: 0.04em;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.35);
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    #authVersionOutside .ver-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: rgba(15,23,42,0.38);
+      border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 999px;
+      padding: 0.28rem 0.85rem;
+      backdrop-filter: blur(6px);
+    }
     @keyframes authFadeIn {
       from { opacity: 0; transform: translateY(12px) scale(0.98); }
       to { opacity: 1; transform: translateY(0) scale(1); }
@@ -533,6 +573,53 @@
     .app-toast-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 0.35rem; }
     .app-toast-msg { font-size: 0.75rem; color: #475569; margin-bottom: 0.85rem; }
     .app-toast-actions { display: flex; gap: 0.5rem; justify-content: center; }
+
+    
+    /* API Online / Offline / Tắt */
+    #apiStatusBadge.api-on {
+      background: linear-gradient(135deg, #059669, #10b981) !important;
+      color: #fff !important; border-color: #047857 !important;
+      box-shadow: 0 0 0 2px rgba(16,185,129,0.28);
+      animation: apiPulse 2s ease-in-out infinite;
+    }
+    #apiStatusBadge.api-off {
+      background: linear-gradient(135deg, #dc2626, #f87171) !important;
+      color: #fff !important; border-color: #b91c1c !important;
+    }
+    #apiStatusBadge.api-disabled {
+      background: #64748b !important; color: #fff !important;
+    }
+    @keyframes apiPulse {
+      0%,100% { box-shadow: 0 0 0 2px rgba(16,185,129,0.22); }
+      50% { box-shadow: 0 0 0 5px rgba(16,185,129,0.35); }
+    }
+    #appToastOverlay {
+      display: none; align-items: center; justify-content: center;
+      background: rgba(15,23,42,0.52); backdrop-filter: blur(7px);
+    }
+    #appToastOverlay.show { display: flex !important; }
+    .app-toast-card {
+      border-radius: 18px; padding: 0; overflow: hidden;
+      animation: toastPop 0.3s cubic-bezier(0.22,1,0.36,1);
+    }
+    @keyframes toastPop {
+      from { opacity: 0; transform: scale(0.9) translateY(12px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    .app-toast-card::before {
+      content: ''; display: block; height: 5px; width: 100%;
+      background: linear-gradient(90deg, #64748b, #94a3b8);
+    }
+    .app-toast-card.is-success::before { background: linear-gradient(90deg, #059669, #34d399); }
+    .app-toast-card.is-error::before { background: linear-gradient(90deg, #dc2626, #f87171); }
+    .app-toast-card.is-warning::before { background: linear-gradient(90deg, #d97706, #fbbf24); }
+    .app-toast-card.is-info::before { background: linear-gradient(90deg, #2563eb, #60a5fa); }
+    .app-toast-card.is-confirm::before { background: linear-gradient(90deg, #1e3c72, #2a5298); }
+    .app-toast-icon.info { background: linear-gradient(145deg,#dbeafe,#93c5fd); color: #1d4ed8; }
+    .app-toast-icon.success { background: linear-gradient(145deg,#d1fae5,#6ee7b7); color: #047857; }
+    .app-toast-icon.warning { background: linear-gradient(145deg,#fef3c7,#fcd34d); color: #b45309; }
+    .app-toast-icon.error { background: linear-gradient(145deg,#fee2e2,#fca5a5); color: #b91c1c; }
+    .app-toast-icon.confirm { background: linear-gradient(145deg,#e0e7ff,#a5b4fc); color: #1e3c72; }
 
     /* Daily calendar overlay */
     #dailyCalOverlay {
@@ -1660,6 +1747,10 @@
                      onerror="this.style.display='none'">
                 <div class="font-bold" style="font-size:1.05rem;letter-spacing:0.3px">PHÒNG KHÁM ĐA KHOA LAM SƠN</div>
                 <div style="font-size:0.7rem;opacity:.9;margin-top:2px">Hệ thống chia giờ dịch vụ YHCT</div>
+                <div class="auth-version" title="Phiên bản phần mềm">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <span id="appVersionTextAuth">23102026_v2.9</span>
+                </div>
             </div>
             <div class="auth-body">
                 <div class="auth-tabs">
@@ -1722,6 +1813,12 @@
                 </div>
             </div>
         </div>
+        <div id="authVersionOutside">
+            <span class="ver-pill">
+                <i class="fa-solid fa-code-branch"></i>
+                <span id="appVersionTextAuthOutside">23102026_v2.9</span>
+            </span>
+        </div>
     </div>
 
     <!-- ===== ỨNG DỤNG CHÍNH (ẩn đến khi đăng nhập) ===== -->
@@ -1754,7 +1851,7 @@
             </span>
             <span class="badge" id="appVersionBadge" title="Phiên bản phần mềm — tăng số sau mỗi lần Lưu"
                   style="font-size:0.48rem;font-weight:700;background:linear-gradient(135deg,#0f172a,#334155);color:#f8fafc;padding:0.28em 0.55em;border-radius:6px;letter-spacing:0.02em">
-                <i class="fa-solid fa-code-branch mr-1"></i><span id="appVersionText">02102026_v2.9</span>
+                <i class="fa-solid fa-code-branch mr-1"></i><span id="appVersionText">23102026_v2.9</span>
             </span>
             <button class="btn btn-light btn-sm font-bold text-blue-800" id="btnSaveWorkspace" onclick="saveWorkspace(true)" title="Lưu toàn bộ công việc (DSBN, lịch, thiết lập)">
                 <i class="fa-solid fa-floppy-disk mr-1"></i>Lưu
@@ -3493,7 +3590,7 @@
         const USERS_KEY = 'yhct_users_v1';
 
         // ===== PHIÊN BẢN: tự tăng sau mỗi lần Lưu thành công =====
-        const APP_VERSION_DATE = '02102026';
+        const APP_VERSION_DATE = '23102026';
         const APP_VERSION_MAJOR = 2;
         const APP_VERSION_MINOR = 9;
         const APP_BUILD_KEY = 'yhct_app_build_rev';
@@ -3507,23 +3604,21 @@
             try { localStorage.setItem(APP_BUILD_KEY, String(n)); } catch (_) {}
         }
         function getAppVersionLabel() {
-            const rev = getAppBuildRev();
-            const base = APP_VERSION_DATE + '_v' + APP_VERSION_MAJOR + '.' + APP_VERSION_MINOR;
-            return rev > 0 ? (base + '-r' + rev) : base;
+            return APP_VERSION_DATE + '_v' + APP_VERSION_MAJOR + '.' + APP_VERSION_MINOR;
         }
         function applyAppVersionToUI() {
             const label = getAppVersionLabel();
-            const nodes = document.querySelectorAll('#appVersionText, #appVersionTextAuth');
+            try { localStorage.removeItem(APP_BUILD_KEY); } catch (_) {}
+            const nodes = document.querySelectorAll('#appVersionText, #appVersionTextAuth, #appVersionTextAuthOutside');
             nodes.forEach(el => { if (el) el.textContent = label; });
             const badge = document.getElementById('appVersionBadge');
-            if (badge) badge.setAttribute('title', 'Phiên bản ' + label + ' · Tăng -r sau mỗi lần Lưu');
+            if (badge) badge.setAttribute('title', 'Phiên bản ' + label);
             try {
                 document.title = 'PHÒNG KHÁM ĐA KHOA LAM SƠN – Chia giờ · ' + label;
             } catch (_) {}
         }
         function bumpAppVersionOnSave() {
-            const next = getAppBuildRev() + 1;
-            setAppBuildRev(next);
+            try { localStorage.removeItem(APP_BUILD_KEY); } catch (_) {}
             applyAppVersionToUI();
             return getAppVersionLabel();
         }
@@ -3719,16 +3814,16 @@
             if (!el) return;
             if (!API_SETTINGS.enabled || !API_SETTINGS.baseUrl) {
                 el.textContent = 'API: Tắt';
-                if (badge) { badge.className = 'badge bg-slate-50 text-slate-900'; badge.style.fontSize = '0.65rem'; badge.style.fontWeight = '600'; }
+                if (badge) { badge.className = 'badge api-disabled'; badge.title = 'API đang tắt'; }
                 _apiOnline = false;
                 return;
             }
             if (_apiOnline) {
                 el.textContent = 'API: Online';
-                if (badge) { badge.className = 'badge bg-green-600'; badge.style.fontSize = '0.65rem'; badge.style.fontWeight = '600'; }
+                if (badge) { badge.className = 'badge api-on'; badge.title = 'API online'; }
             } else {
                 el.textContent = 'API: Offline';
-                if (badge) { badge.className = 'badge bg-amber-400 text-slate-900'; badge.style.fontSize = '0.65rem'; badge.style.fontWeight = '600'; }
+                if (badge) { badge.className = 'badge api-off'; badge.title = 'API offline'; }
             }
             const last = document.getElementById('apiLastSyncText');
             if (last && _apiLastSyncAt) {
@@ -5313,7 +5408,7 @@ function saveWorkspace(showToast) {
         let _toastResolver = null;
         function _setToastIcon(type) {
             const el = document.getElementById('appToastIcon');
-            if (!el) return;
+            const card = document.querySelector('#appToastOverlay .app-toast-card');
             const map = {
                 info: ['info', 'fa-circle-info'],
                 success: ['success', 'fa-circle-check'],
@@ -5322,8 +5417,11 @@ function saveWorkspace(showToast) {
                 confirm: ['confirm', 'fa-circle-question']
             };
             const [cls, icon] = map[type] || map.info;
-            el.className = 'app-toast-icon' + cls;
-            el.innerHTML = '<i class="fa-solid ' + icon + '"></i>';
+            if (el) {
+                el.className = 'app-toast-icon ' + cls;
+                el.innerHTML = '<i class="fa-solid ' + icon + '"></i>';
+            }
+            if (card) card.className = 'app-toast-card is-' + cls;
         }
         /**
          * Thông báo giữa màn hình (thay alert).
