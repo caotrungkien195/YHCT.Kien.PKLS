@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHÒNG KHÁM ĐA KHOA LAM SƠN – Chia giờ · 23102026_v1.1</title>
+    <title>PHÒNG KHÁM ĐA KHOA LAM SƠN – Chia giờ · 02102026_v2.9</title>
     <script src="https://cdn.tailwindcss.com">
         try {
             if (document.readyState === 'loading') {
@@ -466,12 +466,6 @@
       border-bottom: 2px solid transparent;
     }
     #authOverlay .auth-tabs button.active { color: #1e3c72; border-bottom-color: #1e3c72; }
-    #authOverlay .auth-version {
-      margin-top: 0.45rem; display: inline-flex; align-items: center; gap: 0.3rem;
-      font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em; color: #fff;
-      background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.28);
-      border-radius: 999px; padding: 0.2rem 0.65rem;
-    }
     @keyframes authFadeIn {
       from { opacity: 0; transform: translateY(12px) scale(0.98); }
       to { opacity: 1; transform: translateY(0) scale(1); }
@@ -1666,10 +1660,6 @@
                      onerror="this.style.display='none'">
                 <div class="font-bold" style="font-size:1.05rem;letter-spacing:0.3px">PHÒNG KHÁM ĐA KHOA LAM SƠN</div>
                 <div style="font-size:0.7rem;opacity:.9;margin-top:2px">Hệ thống chia giờ dịch vụ YHCT</div>
-                <div class="auth-version" title="Phiên bản phần mềm">
-                    <i class="fa-solid fa-code-branch"></i>
-                    <span id="appVersionTextAuth">23102026_v1.1</span>
-                </div>
             </div>
             <div class="auth-body">
                 <div class="auth-tabs">
@@ -1764,7 +1754,7 @@
             </span>
             <span class="badge" id="appVersionBadge" title="Phiên bản phần mềm — tăng số sau mỗi lần Lưu"
                   style="font-size:0.48rem;font-weight:700;background:linear-gradient(135deg,#0f172a,#334155);color:#f8fafc;padding:0.28em 0.55em;border-radius:6px;letter-spacing:0.02em">
-                <i class="fa-solid fa-code-branch mr-1"></i><span id="appVersionText">23102026_v1.1</span>
+                <i class="fa-solid fa-code-branch mr-1"></i><span id="appVersionText">02102026_v2.9</span>
             </span>
             <button class="btn btn-light btn-sm font-bold text-blue-800" id="btnSaveWorkspace" onclick="saveWorkspace(true)" title="Lưu toàn bộ công việc (DSBN, lịch, thiết lập)">
                 <i class="fa-solid fa-floppy-disk mr-1"></i>Lưu
@@ -3502,64 +3492,38 @@
         // status: 'approved' | 'pending' | 'rejected'  (admin luôn approved)
         const USERS_KEY = 'yhct_users_v1';
 
-        // ===== PHIÊN BẢN: v1.1 → v1.2 → … → v1.9 → v2.0 (mỗi lần Lưu thành công) =====
-        const APP_VERSION_DATE = '23102026';
-        const APP_VERSION_MAJOR = 1;   // bản gốc trong mã nguồn
-        const APP_VERSION_MINOR = 1;
-        const APP_VER_MAJOR_KEY = 'yhct_app_ver_major';
-        const APP_VER_MINOR_KEY = 'yhct_app_ver_minor';
-        const APP_BUILD_KEY = 'yhct_app_build_rev'; // legacy — sẽ xóa khi đọc
-
-        function getStoredAppVersion() {
+        // ===== PHIÊN BẢN: tự tăng sau mỗi lần Lưu thành công =====
+        const APP_VERSION_DATE = '02102026';
+        const APP_VERSION_MAJOR = 2;
+        const APP_VERSION_MINOR = 9;
+        const APP_BUILD_KEY = 'yhct_app_build_rev';
+        function getAppBuildRev() {
             try {
-                // Xóa hậu tố -r cũ nếu còn
-                try { localStorage.removeItem(APP_BUILD_KEY); } catch (_) {}
-                let maj = parseInt(localStorage.getItem(APP_VER_MAJOR_KEY), 10);
-                let min = parseInt(localStorage.getItem(APP_VER_MINOR_KEY), 10);
-                if (!Number.isFinite(maj) || maj < 1) maj = APP_VERSION_MAJOR;
-                if (!Number.isFinite(min) || min < 0) min = APP_VERSION_MINOR;
-                // Nếu localStorage thấp hơn bản trong mã nguồn → nâng lên bản mã nguồn
-                if (maj < APP_VERSION_MAJOR || (maj === APP_VERSION_MAJOR && min < APP_VERSION_MINOR)) {
-                    maj = APP_VERSION_MAJOR;
-                    min = APP_VERSION_MINOR;
-                    localStorage.setItem(APP_VER_MAJOR_KEY, String(maj));
-                    localStorage.setItem(APP_VER_MINOR_KEY, String(min));
-                }
-                return { major: maj, minor: min };
-            } catch (_) {
-                return { major: APP_VERSION_MAJOR, minor: APP_VERSION_MINOR };
-            }
+                const n = parseInt(localStorage.getItem(APP_BUILD_KEY) || '0', 10);
+                return Number.isFinite(n) && n >= 0 ? n : 0;
+            } catch (_) { return 0; }
         }
-        function setStoredAppVersion(major, minor) {
-            try {
-                localStorage.setItem(APP_VER_MAJOR_KEY, String(major));
-                localStorage.setItem(APP_VER_MINOR_KEY, String(minor));
-            } catch (_) {}
+        function setAppBuildRev(n) {
+            try { localStorage.setItem(APP_BUILD_KEY, String(n)); } catch (_) {}
         }
         function getAppVersionLabel() {
-            const v = getStoredAppVersion();
-            return APP_VERSION_DATE + '_v' + v.major + '.' + v.minor;
+            const rev = getAppBuildRev();
+            const base = APP_VERSION_DATE + '_v' + APP_VERSION_MAJOR + '.' + APP_VERSION_MINOR;
+            return rev > 0 ? (base + '-r' + rev) : base;
         }
         function applyAppVersionToUI() {
             const label = getAppVersionLabel();
             const nodes = document.querySelectorAll('#appVersionText, #appVersionTextAuth');
             nodes.forEach(el => { if (el) el.textContent = label; });
             const badge = document.getElementById('appVersionBadge');
-            if (badge) badge.setAttribute('title', 'Phiên bản ' + label + ' · Mỗi lần Lưu: vX.Y → vX.(Y+1); sau vX.9 → v(X+1).0');
+            if (badge) badge.setAttribute('title', 'Phiên bản ' + label + ' · Tăng -r sau mỗi lần Lưu');
             try {
                 document.title = 'PHÒNG KHÁM ĐA KHOA LAM SƠN – Chia giờ · ' + label;
             } catch (_) {}
         }
-        /** Tăng phiên bản: 1.1→1.2→…→1.9→2.0→2.1… */
         function bumpAppVersionOnSave() {
-            const v = getStoredAppVersion();
-            let maj = v.major;
-            let min = v.minor + 1;
-            if (min > 9) {
-                maj = maj + 1;
-                min = 0;
-            }
-            setStoredAppVersion(maj, min);
+            const next = getAppBuildRev() + 1;
+            setAppBuildRev(next);
             applyAppVersionToUI();
             return getAppVersionLabel();
         }
@@ -3569,7 +3533,7 @@
         let _versionPollTimer = null;
 
         function getLocalAppVersionCore() {
-            return getAppVersionLabel();
+            return APP_VERSION_DATE + '_v' + APP_VERSION_MAJOR + '.' + APP_VERSION_MINOR;
         }
 
         function parseVersionParts(label) {
@@ -4793,7 +4757,7 @@ function saveWorkspace(showToast) {
             if (!conflictMap || !conflictMap.size) return 0;
             const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
             const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
             const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
             const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
             const DV_ORDER = { 'Điện châm': 1, 'Xoa bóp': 2, 'Cứu ngải': 3 };
@@ -6933,7 +6897,7 @@ function saveWorkspace(showToast) {
         function cascadePatientServiceTimes(sttFilter) {
             const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
             const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
             const byStt = new Map();
             scheduleData.forEach(r => {
                 const k = String(r.stt);
@@ -8281,7 +8245,7 @@ function saveWorkspace(showToast) {
                     return;
                 }
                 const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-                const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+                const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
                 const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
                 const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
                 const dur = (typeof SERVICES !== 'undefined' && SERVICES[scheduleData[index].dichVu]) || 30;
@@ -9247,7 +9211,7 @@ function saveWorkspace(showToast) {
             try {
                 const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
                 const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-                const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+                const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
                 const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
                 const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
 
@@ -9766,6 +9730,120 @@ function saveWorkspace(showToast) {
                     });
                 })();
 
+
+                // Lấp lỗ đầu ca chiều: dồn chuỗi DV của mỗi KTV sát afternoonStart
+                (function packAfternoonFromStart() {
+                    const DV_ORDER = { 'Điện châm': 1, 'Xoa bóp': 2, 'Cứu ngải': 3 };
+                    const byStaff = new Map();
+                    scheduleData.forEach(r => {
+                        const st = (r.chucDanhNV || r.tenNV || '').trim();
+                        if (!st) return;
+                        const s = timeToMinutes(r.thoiGianBatDau);
+                        if (s == null || s < afternoonStart) return; // chỉ ca chiều
+                        if (!byStaff.has(st)) byStaff.set(st, []);
+                        byStaff.get(st).push(r);
+                    });
+                    byStaff.forEach((list, staff) => {
+                        // Gom theo STT
+                        const groups = new Map();
+                        list.forEach(r => {
+                            const k = String(r.stt);
+                            if (!groups.has(k)) groups.set(k, []);
+                            groups.get(k).push(r);
+                        });
+                        // Sắp nhóm theo giờ bắt đầu hiện tại
+                        const ordered = [...groups.values()].sort((a, b) => {
+                            const sa = Math.min(...a.map(r => timeToMinutes(r.thoiGianBatDau) ?? 9999));
+                            const sb = Math.min(...b.map(r => timeToMinutes(r.thoiGianBatDau) ?? 9999));
+                            return sa - sb;
+                        });
+                        // Busy máy hiện tại của NV khác (giữ) + sẽ xếp lại NV này
+                        const mBusy = {};
+                        (MACHINE_LIST || []).forEach(m => { mBusy[m] = []; });
+                        scheduleData.forEach(r => {
+                            const st = (r.chucDanhNV || r.tenNV || '').trim();
+                            if (st === staff) return;
+                            if (r.dichVu !== 'Điện châm' || !r.mayTE) return;
+                            const s = timeToMinutes(r.thoiGianBatDau);
+                            const e = timeToMinutes(r.thoiGianKetThuc);
+                            if (s == null || e == null) return;
+                            if (!mBusy[r.mayTE]) mBusy[r.mayTE] = [];
+                            mBusy[r.mayTE].push({ start: s, end: e });
+                        });
+
+                        let cursor = afternoonStart;
+                        ordered.forEach(rows => {
+                            rows.sort((a, b) => {
+                                const oa = DV_ORDER[a.dichVu] || 50, ob = DV_ORDER[b.dichVu] || 50;
+                                if (oa !== ob) return oa - ob;
+                                return (timeToMinutes(a.thoiGianBatDau) ?? 0) - (timeToMinutes(b.thoiGianBatDau) ?? 0);
+                            });
+                            rows.forEach(r => {
+                                const dur = SERVICES[r.dichVu] || 30;
+                                let t = cursor;
+                                // Tìm máy nếu Điện châm
+                                let machine = '';
+                                if (r.dichVu === 'Điện châm') {
+                                    let placed = false;
+                                    let guard = 0;
+                                    while (t + dur <= afternoonEnd && guard++ < 300) {
+                                        let ok = true;
+                                        // giờ cấm
+                                        if (typeof isBlocked === 'function' && isBlocked(t, t + dur)) {
+                                            t += 1; continue;
+                                        }
+                                        for (const m of (MACHINE_LIST || [])) {
+                                            const mb = mBusy[m] || [];
+                                            let free = true;
+                                            for (const b of mb) {
+                                                if (!(b.end <= t || b.start >= t + dur)) { free = false; break; }
+                                            }
+                                            if (free) { machine = m; placed = true; break; }
+                                        }
+                                        if (placed) break;
+                                        t += 1;
+                                    }
+                                    if (!placed) {
+                                        // giữ giờ cũ nếu không nhét được
+                                        const os = timeToMinutes(r.thoiGianBatDau);
+                                        const oe = timeToMinutes(r.thoiGianKetThuc);
+                                        if (os != null && oe != null) cursor = Math.max(cursor, oe + gapMins);
+                                        return;
+                                    }
+                                } else {
+                                    if (typeof isBlocked === 'function') {
+                                        let guard = 0;
+                                        while (typeof isBlocked === 'function' && isBlocked(t, t + dur) && t + dur <= afternoonEnd && guard++ < 300) {
+                                            t += 1;
+                                        }
+                                    }
+                                }
+                                if (t + dur > afternoonEnd) {
+                                    const os = timeToMinutes(r.thoiGianBatDau);
+                                    const oe = timeToMinutes(r.thoiGianKetThuc);
+                                    if (os != null && oe != null) cursor = Math.max(cursor, oe + gapMins);
+                                    return;
+                                }
+                                r.thoiGianBatDau = minutesToTime(t);
+                                r.thoiGianKetThuc = minutesToTime(t + dur);
+                                r.caLam = 'Chiều';
+                                r.chucDanhNV = staff;
+                                r.tenNV = staff;
+                                if (r.dichVu === 'Điện châm') {
+                                    r.mayTE = machine || r.mayTE || '';
+                                    if (r.mayTE) {
+                                        if (!mBusy[r.mayTE]) mBusy[r.mayTE] = [];
+                                        mBusy[r.mayTE].push({ start: t, end: t + dur });
+                                    }
+                                } else {
+                                    r.mayTE = '';
+                                }
+                                cursor = t + dur + gapMins;
+                            });
+                        });
+                    });
+                })();
+
                 // Tự sửa Giờ RV khi ≤ max kết thúc DV (RV := maxEnd + 1)
                 if (typeof autoFixRvAfterSchedule === 'function') {
                     autoFixRvAfterSchedule();
@@ -9844,7 +9922,7 @@ function saveWorkspace(showToast) {
             ensureStaffShifts();
             const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
             const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
             const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
             const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
 
@@ -10070,7 +10148,7 @@ function autoFixRemainingConflicts() {
             if (!conflictMap || !conflictMap.size) return 0;
             const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
             const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
             const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
             const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
             let fixed = 0;
@@ -10290,7 +10368,7 @@ function autoFixRemainingConflicts() {
         function fixSplitShiftPatients() {
             const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
             const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
             const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
             const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
             const DV_ORDER = { 'Điện châm': 1, 'Xoa bóp': 2, 'Cứu ngải': 3 };
@@ -12462,7 +12540,7 @@ function autoFixRemainingConflicts() {
             const targets = new Set(sttList.map(s => String(s)));
             const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
             const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+            const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
             const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
             const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
 
@@ -12606,7 +12684,7 @@ function autoFixRemainingConflicts() {
                 try {
                     const morningStart = timeToMinutes(document.getElementById('morningStartTime')?.value || '07:00') ?? 420;
                     const morningEnd = timeToMinutes(document.getElementById('morningEndTime')?.value || '11:30') ?? 690;
-                    const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:30') ?? 810;
+                    const afternoonStart = timeToMinutes(document.getElementById('afternoonStartTime')?.value || '13:00') ?? 780;
                     const afternoonEnd = timeToMinutes(document.getElementById('afternoonEndTime')?.value || '17:00') ?? 1020;
                     const gapMins = Math.max(1, parseInt(document.getElementById('restGapSelect')?.value, 10) || 1);
 
